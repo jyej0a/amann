@@ -14,23 +14,23 @@ PRD.md를 기반으로 작성된 개발 단계별 작업 목록입니다.
 
 ### 🔨 진행 중 / 미완료 작업
 
-- [ ] Flask 서버 기본 구조 구축
-  - [ ] Flask 프로젝트 디렉토리 생성 (`flask-api/` 또는 `backend/`)
-  - [ ] `requirements.txt` 파일 생성 (Flask, supabase-py 등)
-  - [ ] Flask 앱 기본 설정 (`app.py` 또는 `main.py`)
-  - [ ] CORS 설정 (Next.js와 통신을 위해)
-  - [ ] 환경 변수 설정 (`.env` 파일)
-  - [ ] Supabase 클라이언트 초기화
+- [x] Flask 서버 기본 구조 구축
+  - [x] Flask 프로젝트 디렉토리 생성 (`flask-api/` 또는 `backend/`)
+  - [x] `requirements.txt` 파일 생성 (Flask, supabase-py 등)
+  - [x] Flask 앱 기본 설정 (`app.py` 또는 `main.py`)
+  - [x] CORS 설정 (Next.js와 통신을 위해)
+  - [x] 환경 변수 설정 (`.env.example` 파일)
+  - [ ] Supabase 클라이언트 초기화 (Phase 2에서 구현 예정)
 
-- [ ] Flask 기본 라우팅 구축
-  - [ ] Health check 엔드포인트 (`GET /health`)
-  - [ ] 기본 에러 핸들링 미들웨어
-  - [ ] 로깅 설정
+- [x] Flask 기본 라우팅 구축
+  - [x] Health check 엔드포인트 (`GET /health`)
+  - [x] 기본 에러 핸들링 미들웨어
+  - [x] 로깅 설정
 
-- [ ] 기본 레이아웃 및 대시보드 구조
-  - [ ] 대시보드 메인 페이지 (`app/dashboard/page.tsx`)
-  - [ ] 네비게이션 바 개선 (장바구니 아이콘, 로그아웃 버튼 등)
-  - [ ] 레이아웃 레이아웃 컴포넌트 (`app/dashboard/layout.tsx`)
+- [x] 기본 레이아웃 및 대시보드 구조
+  - [x] 대시보드 메인 페이지 (`app/dashboard/page.tsx`)
+  - [x] 네비게이션 바 개선 (장바구니 아이콘, 대시보드 링크 추가)
+  - [x] 레이아웃 레이아웃 컴포넌트 (`app/dashboard/layout.tsx`)
 
 ---
 
