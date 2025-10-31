@@ -116,8 +116,8 @@ export default function DashboardPage() {
           {/* 안내 메시지 */}
           <div className="mt-8 p-6 border-2 border-border rounded-lg bg-muted/30">
             <p className="text-sm text-muted-foreground">
-              💡 <strong>시작하기:</strong> 먼저 "상품 수집"에서 키워드를 입력하여 상품을 수집해보세요.
-              수집된 상품은 "상품 목록"에서 확인할 수 있습니다.
+              💡 <strong>시작하기:</strong> 먼저 &quot;상품 수집&quot;에서 키워드를 입력하여 상품을 수집해보세요.
+              수집된 상품은 &quot;상품 목록&quot;에서 확인할 수 있습니다.
             </p>
           </div>
         </main>

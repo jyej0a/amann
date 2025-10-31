@@ -34,7 +34,7 @@ export default function Home() {
             <p className="text-xl lg:text-2xl text-black leading-relaxed max-w-2xl">
               우리가 상품 수집에 집착하는 이유는 단순합니다.
               <br />
-              '효율'은 결국 '자동화'에서 나오니까요.
+              &apos;효율&apos;은 결국 &apos;자동화&apos;에서 나오니까요.
             </p>
           </div>
 
